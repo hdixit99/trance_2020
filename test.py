@@ -1,11 +1,6 @@
-print('Yo yo yo!!')
-print('Hello Willow')
-print('Hello Willow 2')
-print('Hello Willow 3')
-print('Hello Willow 4')
-print('Hello Willow 5')
-print('Hello Willow 6')
-print('Hello Willow 7')
-print('Hello Willow 8')
-print('Hello Willow 9')
-print('Hello Willow 10')
+import random
+
+# Generate a random number between 1 and 100
+random_number = random.randint(1, 100)
+
+print(f"Your random number is: {random_number}")
